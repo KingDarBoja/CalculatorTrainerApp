@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculatorTrainerApp.MainGame">
+    <ContentPage.Content>
+        <StackLayout Padding="20" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Label x:Name="NumberTest" />
+            <Label x:Name="CounterTest" />
+            <Label x:Name="FirstNumber" />
+            <Label x:Name="OperationRnd" />
+            <Label x:Name="SecondNumber" />
+            <Label Text="AnswerOperation" TextColor="Red"/>
+            <Entry x:Name="AnswerEntry" Placeholder="Ingrese su respuesta" Keyboard="Numeric"/>
+            <Button  Text="Siguiente" BackgroundColor="Red" TextColor="White" FontAttributes="Bold" x:Name="NextBtn"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
